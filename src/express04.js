@@ -11,7 +11,7 @@ app.post('/user', (req, res, next) => {
 });
 
 app.get('/', (req, res, next) => {
-  console.log('get handler called');
+  console.log('Recieved Request');
   console.log(req.method, req.url);
   res.send(`
   <html>
